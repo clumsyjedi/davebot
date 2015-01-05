@@ -9,11 +9,11 @@ TRIGGER_WORD="#gif_me#"
 IMAGE_STYLE="fixed_height"
 
 
-post "/fat"
+post "/fat" do
 	"fat"
 end
 
-get "/"
+get "/" do
 	"pony"
 end
 
