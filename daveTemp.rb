@@ -18,7 +18,7 @@ get "/" do
 end
 
 post "/gif" do
-	return 401 unless request["token"] == SLACK_TOKEN
+	#return 401 unless request["token"] == SLACK_TOKEN
 	q = request["text"]
 	return 200 unless q.start_with? TRIGGER_WORD
 	q = URI::encode q[TRIGGER_WORD.size..-1]
