@@ -3,7 +3,7 @@ require 'json'
 require 'net/http'
 require 'sinatra'
 
-SLACK_TOKEN="xoxb-3332122042-kmzKrC1qkyyZ2LwjIL1j5eK3"
+SLACK_TOKEN="HSQHPuxOclUKL199AvX3GN5w"
 GIPHY_KEY="dc6zaTOxFJmzC"
 TRIGGER_WORD="#gif_me#"
 IMAGE_STYLE="fixed_height"
